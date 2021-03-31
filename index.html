@@ -15,7 +15,8 @@
 
   <meta charset="UTF-8" />
   <!--  <meta name="viewport" content="width=device-width, initial-scale=1" />-->
-  <meta name="viewport" content="width=1024" />
+  <!-- <meta name="viewport" content="width=1024" /> -->
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
   <title>RobustBench: Adversarial robustness benchmark</title>
   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" />
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -450,7 +451,7 @@ clean_acc, robust_acc <span style="color: #333333">=</span> benchmark(model,
     }
   </script>
   <script>
-    $("#div_leaderboard_Linf").load("leaderboard_Linf.html");
+    $("#div_leaderboard_Linf").load("leaderboard_Linf_new.html");
     $("#div_leaderboard_L2").load("leaderboard_L2.html");
     $("#div_leaderboard_corruptions").load("leaderboard_corruptions.html");
   </script>
